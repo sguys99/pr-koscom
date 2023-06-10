@@ -17,11 +17,11 @@ $ git checkout feature/<깃허브 유저네임>-practice
 ```
 
 ### 3. 실습 환경 만들고 커밋하기
-`results` 디렉토리 안에 깃허브 `유저네임`으로 디렉토리를 만들고, 그 안에 실습을 진행할 `practice` 폴더를 복사한다.
+`results` 디렉토리 안에 깃허브 `유저네임`으로 디렉토리를 만들고, 그 안에 실습을 진행할 `src` 폴더를 복사한다.
 
 ```bash
 $ mkdir results/<깃허브 유저네임>
-$ cp -r practice results/<깃허브 유저네임>/practice
+$ cp -r src results/<깃허브 유저네임>/src
 ```
 
 초기 커밋을 진행한다.
@@ -31,7 +31,7 @@ $ git commit -m "initial commit"
 ```
 
 ### 4. 코드 수정하고 커밋하기
-**중요** `results/<깃허브 유저네임>/practice/pr_practice.py` 파일을 열어서, `<NAME>`과 `<EMAIL>` 부분을 본인의 정보로 수정한다.
+**중요** `results/<깃허브 유저네임>/src/pr_practice.py` 파일을 열어서, `<NAME>`과 `<EMAIL>` 부분을 본인의 정보로 수정한다.
 
 예시
 ```python
