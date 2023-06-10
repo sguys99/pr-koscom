@@ -3,7 +3,7 @@
 ## 실습순서
 
 ### 1. 저장소 복제하기
-원격저장소를 복제하려 로컬저상소를 생성하고 저장소 내부로 진입한다.
+원격저장소를 복제하여 로컬저장소를 생성하고, 저장소 내부로 진입한다.
 ```bash
 $ git clone https://github.com/sguys99/pr-koscom.git
 $ cd pr-koscom
